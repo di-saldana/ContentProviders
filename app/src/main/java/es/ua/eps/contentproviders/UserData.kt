@@ -10,7 +10,7 @@ class UserData : AppCompatActivity() {
 
     companion object {
         private const val COLUMN_USERNAME = "username"
-        private const val COLUMN_NOMBRE_COMPLETO = "name"
+        private const val COLUMN_NOMBRE_COMPLETO = "nombre"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

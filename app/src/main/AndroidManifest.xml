@@ -2,8 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
-    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="es.ua.eps.sqliteapp.PERMISSION" />
+
+    <queries>
+        <provider android:authorities="es.ua.eps.sqliteapp" />
+    </queries>
 
     <application
         android:allowBackup="true"

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "es.ua.eps.contentproviders"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "es.ua.eps.contentproviders"
